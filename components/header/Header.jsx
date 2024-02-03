@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import CartSign from "../Cart/CartSign";
 
 const Header = () => {
   return (
@@ -13,6 +14,7 @@ const Header = () => {
             <li>
               <Link href="/cart" className="btn btn-ghost rounded-btn">
                 Cart
+                <CartSign />
               </Link>
               <Link href="/signin" className="btn btn-ghost rounded-btn">
                 Sign in
